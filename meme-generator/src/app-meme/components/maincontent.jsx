@@ -9,7 +9,7 @@ export default function MainContent(){
         bottomText:"Walk into Mordor"
     })
     function getImage(){
-        setCount((Math.random() * 100).toFixed(0));
+        setCount((Math.random() * 99).toFixed(0));
     }
     React.useEffect(()=>{
         fetch("https://api.imgflip.com/get_memes")
